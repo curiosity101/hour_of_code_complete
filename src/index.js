@@ -1,4 +1,17 @@
+/* 
+Here are some resources for learning more about Javascript:
+https://medium.freecodecamp.org/want-to-learn-javascript-heres-a-free-24-part-course-to-get-you-started-e7777baf86fb
+https://medium.com/@petehouston/top-5-resources-to-learn-javascript-today-a611883542cc
+
+And a little bit about JavaScript developer interviews
+https://medium.com/dev-bits/a-perfect-guide-for-cracking-a-javascript-interview-a-developers-perspective-23a5c0fa4d0d
+https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95
+
+And if you're curious about what jobs are available then the search phrases you would want to search for are: Front end developer, web developer or Javascript developer.
+*/
+
 const nameChanged = () => {
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
   let elfFirstNames = [
     "Tinsel",
     "Snowball",
