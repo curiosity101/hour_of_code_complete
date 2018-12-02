@@ -64,5 +64,6 @@ const nameChanged = () => {
   }
 
   // Find the HTML div with id 'elfName' & put the elfName text inside
+  // https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById
   document.getElementById("elfName").innerHTML = "Elf name: " + elfName;
 };
