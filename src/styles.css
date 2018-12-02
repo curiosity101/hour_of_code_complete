@@ -1,7 +1,13 @@
+/*
+This is a style sheet - .css stands for Cascading Style Sheet. It refers to how styles are applied to the different parts of the web page.
+Here is a nice article to read to introduce you to styling websites: https://codeburst.io/how-to-style-your-website-with-css-e72e7046fda5
+Also if you go onto any webpage using Google Chrome you can edit the styles live in the browser - https://developers.google.com/web/tools/chrome-devtools/inspect-styles/
+*/
+
 .app-wrapper {
-  background-color: #008000;
-  color: purple;
-  font-size: 30px;
+  background-color: #008000; /* This is a hex code, this is the most accurate way to define a colour in CSS*/
+  color: purple; /* Certain colours can also be defined by name, it's better to be consistent though. So it's normally best to use hex codes */
+  font-size: 30px; /* The font size is the css attribute used to define the size of the text. There are a number of different options it accepts; px, rem, em and %. You can google it to find out the merits of each type */
 }
 
 .elf-form {
@@ -10,7 +16,7 @@
 }
 
 .name-input {
-  width: 25%;
+  width: 25%; /* Widths take multiple options, normally you will use either % or px depending on the situation */
   padding: 12px 15px;
   margin: 8px 0;
   box-sizing: border-box;
